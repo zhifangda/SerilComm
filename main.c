@@ -1,3 +1,4 @@
+（此为同步方式）
 打开VC++6.0，新建基于对话框的工程RS485Comm，在主对话框窗口 IDD_RS485COMM_DIALOG上添加两个按钮，ID分别为IDC_SEND和IDC_RECEIVE，标题分别为“发送”和“接收”；添加一个静态文本框IDC_DISP，用于显示串口接收到的内容。
 
 在RS485CommDlg.cpp文件中添加全局变量：
